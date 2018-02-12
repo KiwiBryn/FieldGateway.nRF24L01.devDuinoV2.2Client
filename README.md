@@ -20,6 +20,7 @@ Would most probably work with [devDuino Relay 1 Node](https://www.elecrow.com/de
 
 I have "automagic provisioning" (hold the buttons down on the device & field gateway and they will find each other, like WPA) under devellopment.
 
+```
 Setup called
 SNo:01 23 32 66 C6 FE 0B 8D EE 
 TH02 setup
@@ -31,3 +32,4 @@ Payload length:30
 nRF24 write
 Write Ok...
 nRF24 power down
+```
