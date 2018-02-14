@@ -3,14 +3,14 @@ Sample plug n play devDuino V2.2 client for my [nRF24L01](http://www.nordicsemi.
 
 The onboard [ASSHA204A](https://www.microchip.com/wwwproducts/en/ATSHA204A) makes provisioning easier as each device is guaranteed to have a unique identifier. (In coming versions of the software I will use the encryption capabilities).
 
-With some gateways (e.g. AdaFruit.IO) the device will be configured "automagically" on first update and it's just a matter of changing the feed name to something human readable. For other gateways (e.g. Microsoft IoT Central) I use a label maker to print the device ID on the outside of the enclosure which can then be manually configured.
+With some gateways (e.g. AdaFruit.IO) the device will be configured "automagically" on first update and it's just a matter of changing the feed name to something human readable. For other gateways (e.g. Microsoft IoT Central) I use a label maker to print the device ID on the outside of the enclosure which can then be used for manual configuration.
 
 I have put in basic power conservation code which gives 4-6 weeks battery life depending on RF Power and update rate configuration so plenty of scope for improvement.
 
 These devices are only USD18 each (Feb 2018) so I pass them out into the audience at conferences as part of SmartAG (temperature, humidity and light levels) or industrial monitoring (acceleration, temperature and proximity) scenario simulations. 
 
 This clients uses
-* [devDuino V2](https://www.elecrow.com/devicter-sensor-node-v22-atmega-328-with-support-ota-update-p-1485.html)
+* [devDuino V2.2](https://www.elecrow.com/devicter-sensor-node-v22-atmega-328-with-support-ota-update-p-1485.html)
 * [SeeedStudio Grove-Temperature & Humidity Sensor ](https://www.seeedstudio.com/Grove-Temperature%26Humidity-Sensor-%28High-Accuracy-%26-Mini%29-p-1921.html)
 * [SeeedStudio Grove-Universal 4 Pin Buckled 5cm Cable](https://www.seeedstudio.com/Grove-Universal-4-Pin-Buckled-5cm-Cable-%285-PCs-Pack%29-p-925.html)
 
