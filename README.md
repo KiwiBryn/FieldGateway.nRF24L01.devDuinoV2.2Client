@@ -18,7 +18,7 @@ Would most probably work with [devDuino Relay 1 Node](https://www.elecrow.com/de
 
 ![devDuino V2.2 Client](devDuinoV22.jpg)
 
-I have "automagic provisioning" (hold the buttons down on the device & field gateway and they will find each other, like WPA) under devellopment.
+I have "automagic provisioning" (hold the buttons down on the device & field gateway and they will find each other, like WPA) under development.
 
 ```
 Setup called
